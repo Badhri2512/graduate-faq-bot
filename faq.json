@@ -1,0 +1,22 @@
+[
+    {
+        "question": "what is python",
+        "answer": "Python is a beginner-friendly programming language used for apps, automation, data, cloud, and AI."
+    },
+    {
+        "question": "what is gcp",
+        "answer": "GCP stands for Google Cloud Platform."
+    },
+    {
+        "question": "what is git",
+        "answer": "Git is a version control system used to track code changes."
+    },
+    {
+        "question": "what is vscode",
+        "answer": "VS Code is a popular code editor from Microsoft."
+    },
+    {
+        "question": "what is copilot",
+        "answer": "GitHub Copilot is an AI coding assistant."
+    }
+]
