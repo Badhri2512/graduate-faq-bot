@@ -19,6 +19,15 @@ def log_question(question, answer):
         file.write(f"Answer: {answer}\n")
         file.write("---\n")
 
+def find_low_score_topics(scores):
+    low_score_topics = []
+
+    for topic, score in scores.items():
+        if score < 7:
+            low_score_topics.append(topic)
+
+    return low_score_topics
+
 def main():
     faq_data = load_faq_data()
 
@@ -31,5 +40,16 @@ def main():
     log_question(question, answer)
 
     print("Answer:", answer)
+
+    scores = {
+        "Python": 8,
+        "GCP": 5,
+        "Git": 6,
+        "VS Code": 9
+    }
+
+    low_topics = find_low_score_topics(scores)
+
+    print("Low score topics:", low_topics)
 
 main()

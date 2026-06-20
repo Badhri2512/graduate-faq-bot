@@ -7,3 +7,6 @@ Answer: Python is a beginner-friendly programming language used for apps, automa
 Question: what is kubernetes
 Answer: I do not have enough information. Please contact the mentor.
 ---
+Question: what is python
+Answer: Python is a beginner-friendly programming language used for apps, automation, data, cloud, and AI.
+---
